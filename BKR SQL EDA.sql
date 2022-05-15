@@ -19,6 +19,9 @@ SELECT title, ROUND((CAST(commentCount AS float)/CAST(viewCount AS float)*1000),
 --Average comments on videos
 SELECT ROUND(AVG(commentCount),2) AS average_comments FROM bkr_channel_data;
 
+--Videos with most likes:
+SELECT TOP 10 title, likeCount FROM bkr_channel_data ORDER BY likeCount DESC;
+
 --Days of the week that videos are posted:
 SELECT dayPublished, COUNT(title) AS videosPublished FROM bkr_channel_data GROUP BY dayPublished ORDER BY videosPublished DESC;
 
@@ -65,6 +68,15 @@ SELECT TOP 10 title, ROUND(CAST(Neutral AS float)/CAST(Total_Sentiments AS float
 
 --Top 10 videos with highest percentage of negative comments:
 SELECT TOP 10 title, ROUND(CAST(Negative AS float)/CAST(Total_Sentiments AS float)*100,2) AS Negative_Percentage FROM Sentiments_per_video ORDER BY Negative_Percentage DESC;
+
+--Overall positive sentiment for the channel:
+SELECT ROUND(CAST(SUM(Positive) AS float)/CAST(SUM(Total_Sentiments) AS float)*100,2) AS Overall_Positive_Sentiment FROM Sentiments_per_video; 
+
+--Overall neutral sentiment for the channel:
+SELECT ROUND(CAST(SUM(Neutral) AS float)/CAST(SUM(Total_Sentiments) AS float)*100,2) AS Overall_Neutral_Sentiment FROM Sentiments_per_video; 
+
+--Overall sentiment for the channel:
+SELECT ROUND(CAST(SUM(Negative) AS float)/CAST(SUM(Total_Sentiments) AS float)*100,2) AS Overall_Negative_Sentiment FROM Sentiments_per_video; 
 
 --Create a view that summarizes the number of positive, neutral and negative sentiments per commenter:
 DROP VIEW IF EXISTS Sentiments_by_author
