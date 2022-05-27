@@ -1,7 +1,7 @@
-video_id,title,Negative,Neutral,Positive,total_comments,Percentage_Negative,Percentage_Neutral,Percentage_Positive
+video_id,title,Negative,Neutral,Positive,total_sentiments,Percentage_Negative,Percentage_Neutral,Percentage_Positive
 -5SRVg9CQFM,The United States of Toni,129,337,927,1393,9.26,24.19,66.55
--F_udvb6OCw,Best Actress 1973: Liza Minnelli wins for Cabaret,88,189,346,623,14.13,30.34,55.54
--eOb4cI-Pbo,Everything You Need to Know About Mank,64,93,295,452,14.16,20.58,65.27
+-F_udvb6OCw,,88,189,346,623,14.13,30.34,55.54
+-eOb4cI-Pbo,,64,93,295,452,14.16,20.58,65.27
 0Gs-l6yHKHY,How Breakfast at Tiffany's Turned into a Totally Different Movie | Adapting a Classic,145,248,844,1237,11.72,20.05,68.23
 1aCgkHVUOgE,1936 | Bette Davis Wins A Consolation Oscar,45,79,221,345,13.04,22.9,64.06
 26kzCQ6SbxE,Why Deborah Kerr Never Won an Oscar | Always Second Best Actress,71,204,668,943,7.53,21.63,70.84
