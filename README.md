@@ -55,46 +55,46 @@ The exploratory data analysis was performed using SQL to retrieve information fr
 
 #### Top performing videos by viewCount
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda1t.jpg" />
+  <img width="40%" height="40%" src="/images/eda1t.jpg" />
   <img width="100%" height="100%" src="/images/eda1g.jpg" />
 </p>
 The most viewed videos are those that discuss movies and personalities who are familiar to today’s audiences. The channel goes over the story of past best actress winners all the way from the infancy of the Oscars. Average viewers may not be able to easily recognize and relate to the subject of some of the videos especially those from the Golden Age of Hollywood. The top 4 most viewed videos cover movies that were recently made (or remade) or actresses that are currently active who won their Oscar within the last 2 decades. The top 5 and 6 most watched video also has this characteristic in a way. They delve into the story  of 2 actresses from the Golden Age of Hollywood who were the subjects of a recent popular TV series. 
 
 #### Average view count of videos
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda3.jpg" />
+  <img width="40%" height="40%" src="/images/eda3.jpg" />
 </p>
 The average views of channel per video is 352,354.
 
 #### Videos with the most comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda5t.jpg" />
+  <img width="40%" height="40%" src="/images/eda5t.jpg" />
   <img width="100%" height="100%" src="/images/eda5g.jpg" />
 </p>
 Videos with the most comments are also those that cover actresses and movies that are more recent as they would be more familiar to today’s viewers.
 
 #### Average number of comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda7.jpg" />
+  <img width="30%" height="30%" src="/images/eda7.jpg" />
 </p>
 The average number of comments on the channel’s videos is 1,246.
 
 #### Video comments per 1000 views
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda8t.jpg" />
+  <img width="40%" height="40%" src="/images/eda8t.jpg" />
   <img width="100%" height="100%" src="/images/eda8g.jpg" />
 </p>
 Video comments are correlated to views since the more views a video has, the more chance the video will have of getting comments. Thus, to be able to better compare the comment count of videos, we need to consider them in the context of their view counts. The comment count was divided by the total views of each video and then multiplied by 1000. Using this ratio, we can see that the most commented video per 1000 views is the channel’s Q&A video. Perhaps the reason behind this is that this video is a way for the creator of the channel to engage with the channel’s audience and this, in turn, resulted to more comments.
 
 #### Average number of words in comments for all videos
 <p align="center">
-  <img width="60%" height="60%" src="/images/eda15.jpg" />
+  <img width="30%" height="30%" src="/images/eda15.jpg" />
 </p>
 Comments have an average length of 33 words. 
 
 #### Correlation of viewCount, likeCount, commentCount, duration, tagCount, and comment_view_ratio
 <p align="center">
-  <img width="100%" height="100%" src="/images/eda19.jpg" />
+  <img width="80%" height="80%" src="/images/eda19.jpg" />
 </p>
 There is a high correlation between viewCount, likeCount, and commentCount. The more a video is viewed, the higher the chance of it getting likes and comments from the viewers.
 
@@ -111,37 +111,37 @@ Based on the polarity score, each comment was tagged as ‘Positive’ if the sc
 
 #### Overall Sentiment
 <p align="center">
-  <img width="60%" height="60%" src="/images/number-of-sentiment.jpg" />
-  <img width="100%" height="100%" src="/images/number-of-sentiment-g.jpg" />
+  <img width="40%" height="40%" src="/images/number-of-sentiment.jpg" />
+  <img width="70%" height="70%" src="/images/number-of-sentiment-g.jpg" />
 </p>
 The channel has more positive comments than neutral or negative comments. With 63.53% of the comments being positive, viewers generally like the content available on the channel Be Kind Rewind.
 
 #### Average sentiment on videos
 <p align="center">
-  <img width="60%" height="60%" src="/images/avg-sentiment.jpg" />
+  <img width="30%" height="30%" src="/images/avg-sentiment.jpg" />
 </p>
 The videos have an average of 64.88% of their comments being positive. Negative comments are only 11.63% on average for the videos.
 
 #### Top 10 videos with the highest percentage of positive comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/top-vids-pos-com-t.jpg" />
+  <img width="40%" height="40%" src="/images/top-vids-pos-com-t.jpg" />
   <img width="100%" height="100%" src="/images/top-vids-pos-com-g.jpg" />
 </p>
 
 #### Top 10 videos with the highest percentage of negative comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/top-vids-neg-com-t.jpg" />
+  <img width="40%" height="40%" src="/images/top-vids-neg-com-t.jpg" />
   <img width="100%" height="100%" src="/images/top-vids-neg-com-g.jpg" />
 </p>
 
 #### Top 10 users with most positive comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/top-users-pos-com.jpg" />
+  <img width="40%" height="40%" src="/images/top-users-pos-com.jpg" />
 </p>
 
 #### Word Cloud of Positive Video Comments
 <p align="center">
-  <img width="60%" height="60%" src="/images/word-cloud-positive.jpg" />
+  <img width="100%" height="100%" src="/images/word-cloud-positive.jpg" />
 </p>
 
 ## Conclusion
