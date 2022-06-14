@@ -24,4 +24,4 @@ The data was scraped using Google Youtube Data API version 3.0. There are two da
 ## Results
 The comments to the channel are generally positive.  The comments are 63.53% positive, 23.22% neutral, and 13.25% negative.
 
-For a more details on the findings of this analysis, please see the pdf document **Youtube Sentiment Analysis - Be Kind Rewind**. 
+For a more details on the findings of this analysis, please see the pdf document **[Youtube Sentiment Analysis - Be Kind Rewind](https://github.com/datascian/YouTube-Sentiment-Analysis---Be-Kind-Rewind/blob/main/YouTube%20Sentiment%20Analysis%20-%20BKR.pdf)**. 
